@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431138407588",
+    "project_id": "interviewtestapp-d074a",
+    "storage_bucket": "interviewtestapp-d074a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431138407588:android:045a25db89ef8b1e18d231",
+        "android_client_info": {
+          "package_name": "com.example.testapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABj0dOYld_Kup5EyFyCewvIbq98HCJF4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
