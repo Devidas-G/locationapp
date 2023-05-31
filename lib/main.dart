@@ -58,6 +58,8 @@ class _MyHomePageState extends State<MyHomePage> {
               itemCount: docs.length,
               itemBuilder: (context, index) {
                 return ListTile(
+                  leading: CircleAvatar(
+                      backgroundImage: NetworkImage(docs[index]["url"])),
                   title: Text(docs[index]["Name"]),
                   subtitle: Text("Price: ${docs[index]["Price"]}"),
                   trailing: Icon(Icons.arrow_forward_ios_outlined),
