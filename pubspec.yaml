@@ -42,6 +42,9 @@ dependencies:
   fluttertoast: ^8.2.2
   firebase_storage: ^11.2.2
   maps_launcher: ^2.2.0
+  firebase_auth: ^4.9.0
+  provider: ^6.0.5
+  firebase_ui_auth: ^1.8.0
 
 dev_dependencies:
   flutter_test:
