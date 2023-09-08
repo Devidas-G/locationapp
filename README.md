@@ -1,16 +1,6 @@
-# testapp
+# Location app
 
-A new Flutter project.
+A simplified version of online store where you can list certain item with there photo, name and price.  
+It autodetects your current location while you add a item, location data can be edited in Longitude and latitude.  
+Users can view the listed items on homescreen and can open google maps to view your location.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
