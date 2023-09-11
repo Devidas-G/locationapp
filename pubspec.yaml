@@ -45,6 +45,8 @@ dependencies:
   firebase_auth: ^4.9.0
   provider: ^6.0.5
   firebase_ui_auth: ^1.8.0
+  font_awesome_flutter: ^10.5.0
+  pinput: ^3.0.1
 
 dev_dependencies:
   flutter_test:

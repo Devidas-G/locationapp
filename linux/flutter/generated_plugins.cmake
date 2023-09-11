@@ -5,6 +5,7 @@
 list(APPEND FLUTTER_PLUGIN_LIST
   desktop_webview_auth
   maps_launcher
+  smart_auth
   url_launcher_linux
 )
 

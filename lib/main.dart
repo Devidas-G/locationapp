@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:testapp/auth.dart';
 import 'package:testapp/pages/homepage.dart';
+import 'package:testapp/pages/loginoptions.dart';
 import 'package:testapp/pages/loginpage.dart';
 
 Future<void> main() async {
@@ -29,6 +30,8 @@ class Wrapper extends StatefulWidget {
 }
 
 class _WrapperState extends State<Wrapper> {
+  bool showSignIn = true;
+
   @override
   Widget build(BuildContext context) {
     final user = context.watch<User?>();
@@ -37,7 +40,7 @@ class _WrapperState extends State<Wrapper> {
         title: 'Location App',
       );
     } else {
-      return const LogInPage();
+      return const LogOptions();
     }
   }
 }
