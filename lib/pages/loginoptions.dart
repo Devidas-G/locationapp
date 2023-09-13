@@ -1,5 +1,7 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:testapp/auth.dart';
 import 'package:testapp/pages/loginpage.dart';
 
 class LogOptions extends StatefulWidget {
@@ -43,7 +45,7 @@ class _LogOptionsState extends State<LogOptions> {
                   color: Colors.black,
                 ),
                 onTap: () {
-                  print("Google");
+                  Auth(FirebaseAuth.instance).signInWithGoogle();
                 },
               ),
               SizedBox(
